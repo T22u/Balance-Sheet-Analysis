@@ -1,0 +1,118 @@
+.header{
+    margin: 0px;
+    height: 98px;
+    padding: 0px 0px;
+    background-color: rgb(230, 214, 214);
+}
+
+.left{
+    height: 40px;
+    width: 70px;
+    display: inline-block;
+    vertical-align: middle;
+    border-style: none;
+}
+.mid{
+    /* border: 2px yellow solid; */
+    display: block;
+    width: fit-content;
+    margin:  -11px auto;     /* to make it center */
+
+}
+.right{
+    /* border: 2px white solid; */
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 25px;
+}
+.navbar{
+    display: inline;
+}
+.navbar li{
+    display: inline;     
+                            /* for making navbar in a line */
+    
+}
+
+.navbar li a{
+    color: black;
+    text-decoration: none;     /* to remove the underline in a tag*/
+    padding: 10px;
+    font-size: 25px;
+}
+
+/* to make changes on look when it is visited */
+.navbar li a:hover{
+    color: blue;
+    text-decoration: underline;     /* to add the underline in a tag*/
+    padding: 10px;
+    /* background-color: sandybrown; */
+    font-size: 25px;
+}
+
+.left img{
+    width: 153px;
+}
+.btn{
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 6px 11px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Baloo Bhai 2', cursive;
+    text-decoration: none;
+
+}
+
+
+
+.acc{
+    color: white;
+    text-decoration: none;     /* to remove the underline in a tag*/
+    padding: 10px;
+    font-size: 25px;
+}
+.btn:hover{
+    background-color: rgb(105, 103, 103);
+
+}
+
+
+.container{
+    color: white;
+    /* border: 2px solid white; */
+    margin: 60px 50px;
+    padding: 34px 36px;
+    width: 1100px;
+    /* border-radius: 14px; */
+}
+
+/* .intro{
+    border: 2px solid red;
+    text-align: center;
+    font-family: fantasy;
+    font-style: italic;
+    color: red;
+    padding: 0px 23px;
+    margin: 0px 122px;
+    width: 1045px;
+
+} */
+.intro{
+    margin: 0px;
+    height: 50px;
+}
+.marQ {
+    margin-top: 1%;
+}
+#introduction {
+    background-color: rgb(230, 214, 214);
+    margin: -68px 31px;
+}
+.intro-outer {
+    padding: 4% 0;
+}
